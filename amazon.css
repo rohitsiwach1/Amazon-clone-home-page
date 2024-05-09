@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    color: white;
+}
+
+.nav-bar{
+    height: 60px;
+    display: flex;
+    background-color:#0F1111 ;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height:50px ;
+    width: 110px;
+    padding-top: 20px;
+ 
+}
+
+.logo{
+    background-image: url("https://zeevector.com/wp-content/uploads/Amazon-Logo-White@zeevector.png");
+    height: 28px;
+    width: 94px;
+    background-size: cover;
+}
+.nav-icon{
+    display: flex;
+    text-align: center;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add-first{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.nav-search{
+    display: flex;
+    width: 800px;
+    height: 45px;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+.search-sel{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: rgba(202, 196, 196, 0.883);
+    width: 45px;
+}
+.search-inp{
+    background-color: white;
+    width: 100%;
+    font-size: 1rem;
+}
+.search-icon{
+    background-color: #febd68;
+    width: 45px;
+    text-align: center;
+    align-content: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.nav-cart i{
+    font-size: 2rem;
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+}
+.nav-panel{
+    background-color: #222f3d;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.panel-menu{
+    width: 60px;
+    text-align: center;
+    display: flex;
+    padding-left: 18px;
+    font-style:normal;
+}
+.panel-menu i{
+    font-size: 20px;
+}
+.panel-deal a {
+    margin: 7px;
+    font-size: 16px;
+}
+.body-img{
+    background-image: url("https://m.media-amazon.com/images/I/61CiqVTRBEL._SX3000_.jpg");
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-text{
+    height: 40px;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 1100px;
+    text-align: center;
+    justify-content: center;
+}
+.hero-text p{
+    color: black;
+    padding-top: 7px;
+}
+.hero-text a{
+    color: #007185;
+}
+.shop-full{
+    background-color: #e2e7e6;
+}
+.shop{
+    display: flex;
+    padding-top: 1rem;
+}
+.img1{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/MothersDay24/Fuji_Mothers_day_Dashboard_card_2x._SY608_CB559063668_.jpg");
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 310px;
+    width: 324px;
+}
+.img2{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v1._SY608_CB573698005_.jpg");
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 310px;
+    width: 324px;
+}
+.img3{
+    height: 310px;
+    width: 324px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/dex/2023/Roar/October/D_CC_Roar_OfficeDepot_1023_2X_Furnitrure_v2._SY608_CB577544739_.jpg");
+}
+.img4{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2023/img/Consumer_Electronics/XCM_CUTTLE_1546843_2940864_758x608_2X_en_US._SY608_CB613273467_.jpg");
+    height: 310px;
+    width: 324px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+.shop p{
+    color: black;
+    font-size: 21px;
+    font-weight:bold;
+    margin-top: 1rem;
+}
+.box1{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 1rem;
+    background-color: white;
+}
+.box2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 1rem;
+    background-color: white;
+}
+.box3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 1rem;
+    background-color: white;
+}
+.box4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 1rem;
+    background-color: white;
+}
+.shop a{
+    color: #007185;
+}
+.shop2 {
+    display: flex;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+.img5{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v10._SY608_CB573698005_.jpg");
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 310px;
+    width: 324px;
+}
+.img6{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/RBS-in-house-Graphics/cc_758_laptop_us_v1._SY608_CB576754001_.jpg");
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 310px;
+    width: 324px;
+}
+.img7{
+    height: 310px;
+    width: 324px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2023/img/Consumer_Electronics/XCM_CUTTLE_1622892_3373436_758x608_2X_en_US._SY608_CB597161294_.jpg");
+}
+.img8{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v3._SY608_CB573698005_.jpg");
+    height: 310px;
+    width: 324px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+.shop2 p{
+    color: black;
+    font-size: 21px;
+    font-weight:bold;
+    margin-top: 1rem;
+}
+.box5{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 1rem;
+    background-color: white;
+}
+.box6 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 1rem;
+    background-color: white;
+}
+.box7 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 1rem;
+    background-color: white;
+}
+.box8 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 1rem;
+    background-color: white;
+}
+.shop2 a{
+    color: #007185;
+}
+
+.foot1{
+    height: 50px;
+    background-color: #37475a;
+    text-align: center;
+}
+.foot1 p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.foot2{
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.foot2 a{
+    display: block;
+    font-size: 16px;
+    padding-top: 8px;
+}
+.foot2 p{
+    font-size: 20px;
+    color: #dddddd;
+}
+
+.foot3{
+    height: 30px;
+    background-color: #222f3d;
+    display: flex;
+    border-top: 0.2px solid white;
+    justify-content: space-evenly;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.foot-img{
+    height: 28px;
+    width: 94px;
+    background-image: url("https://zeevector.com/wp-content/uploads/Amazon-Logo-White@zeevector.png");
+    background-size: cover;
+}
+.foot-cou{
+    height: 35px;
+    width: 430px;
+    text-align: center;
+    justify-content: center;
+}
+.foot-cou a {
+    border: 1px solid white;
+}
+
+
